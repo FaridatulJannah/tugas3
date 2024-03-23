@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nama">Nama</string>
+    <string name="masukkan_kode">Masukkan kode</string>
+    <string name="jumlah_barang">jumlah barang</string>
+    <string name="gold">Gold</string>
+    <string name="silver">Silver</string>
+    <string name="biasa">Biasa</string>
+    <string name="pembelian_di_atas_10_juta_diskon_sebesar_100_000">Pembelian di atas 10 juta Diskon sebesar 100.000</string>
+    <string name="pesan">Pesan</string>
+    <string name="nama_barang">nama_barang</string>
+    <string name="harga_barang">harga_barang</string>
+    <string name="diskon_member">diskon_member</string>
+    <string name="jumlah_bayar">jumlah_bayar</string>
+    <string name="terima_kasih">Terima_kasih</string>
+    <string name="share">Share</string>
+    <string name="pembelian">pembelian</string>
+    <string name="diskon_belanja">diskon_belanja</string>
+</resources>

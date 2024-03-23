@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E6D2"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".bonActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faridatul Jannah Quiz 1"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:background="#CBD374"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nama"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"/>
+
+    <TextView
+        android:id="@+id/tvKode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukkan_kode"
+        app:layout_constraintTop_toBottomOf="@+id/tvNama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNamabrg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nama_barang"
+        app:layout_constraintTop_toBottomOf="@+id/tvKode"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvHargabrg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/harga_barang"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamabrg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvJumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/jumlah_barang"
+        app:layout_constraintTop_toBottomOf="@+id/tvHargabrg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvDiskon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/diskon_belanja"
+        app:layout_constraintTop_toBottomOf="@+id/tvJumlah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvDiskonMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/diskon_member"
+        app:layout_constraintTop_toBottomOf="@+id/tvDiskon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvJmlhBayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/jumlah_bayar"
+        app:layout_constraintTop_toBottomOf="@+id/tvDiskonMember"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvThankYou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/terima_kasih"
+        app:layout_constraintTop_toBottomOf="@+id/tvJmlhBayar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <Button
+        android:id="@+id/btnshare"
+        app:layout_constraintTop_toBottomOf="@+id/tvThankYou"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:hint="@string/share"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

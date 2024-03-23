@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">المهمة3</string>
+    <string name="nama">الاسم</string>
+    <string name="masukkan_kode">أدخل الرمز</string>
+    <string name="jumlah_barang">مجموع البضائع</string>
+    <string name="gold">الذهب</string>
+    <string name="silver">الفضة</string>
+    <string name="biasa">عادي</string>
+    <string name="pembelian_di_atas_10_juta_diskon_sebesar_100_000">مشتريات فوق 10 مليون خصم 100,000</string>
+    <string name="pesan">النظام</string>
+    <string name="nama_barang">اسم العنصر :</string>
+    <string name="harga_barang"> سعر البضائع :</string>
+    <string name="diskon_member">خصم الأعضاء :</string>
+    <string name="jumlah_bayar">مجموع المدفوعات :</string>
+    <string name="terima_kasih">شكرا</string>
+    <string name="share">حصة</string>
+    <string name="diskon_belanja">خصومات التسوق</string>
+
+</resources>

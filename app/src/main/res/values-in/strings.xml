@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tugas3</string>
+    <string name="nama">Nama</string>
+    <string name="masukkan_kode">Masukkan kode</string>
+    <string name="jumlah_barang">Jumlah barang</string>
+    <string name="gold">Gold</string>
+    <string name="silver">Silver</string>
+    <string name="biasa">Biasa</string>
+    <string name="pembelian_di_atas_10_juta_diskon_sebesar_100_000">Pembelian di atas 10 juta Diskon sebesar 100.000</string>
+    <string name="pesan">Pesan :</string>
+    <string name="nama_barang">Nama barang :</string>
+    <string name="harga_barang">Harga barang :</string>
+    <string name="diskon_member">Diskon member :</string>
+    <string name="jumlah_bayar">Jumlah bayar :</string>
+    <string name="terima_kasih">Terima kasih</string>
+    <string name="share">Bagikan</string>
+    <string name="diskon_belanja">diskon belanja :</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">tugas3</string>
+    <string name="nama">Name</string>
+    <string name="masukkan_kode">Enter code</string>
+    <string name="jumlah_barang">total items</string>
+    <string name="gold">Gold</string>
+    <string name="silver">Silver</string>
+    <string name="biasa">plain</string>
+    <string name="pembelian_di_atas_10_juta_diskon_sebesar_100_000">Purchases above 10 million discount of 100,000</string>
+    <string name="pesan">Order</string>
+    <string name="nama_barang">Item name :</string>
+    <string name="harga_barang">Price of item :</string>
+    <string name="diskon_member">Discount_member :</string>
+    <string name="jumlah_bayar">Total payment :</string>
+    <string name="terima_kasih">Thank you</string>
+    <string name="share">Share</string>
+    <string name="diskon_belanja">Discount shopping :</string>
+
+</resources>
